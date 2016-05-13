@@ -1,0 +1,52 @@
+@mixin cuadrado(){
+	width:150px;
+	height:100px;
+	display:inline-block;
+}
+
+@mixin cuadrado-color($color){
+	background-color:$color;
+}
+
+.cuadrado{
+	@include cuadrado();
+	&.A1{@include cuadrado-color($A1);}
+	&.A2{@include cuadrado-color($A2);}
+	&.A3{@include cuadrado-color($A3);}
+	&.A4{@include cuadrado-color($A4);}
+	&.A5{@include cuadrado-color($A5);}
+	&.B1{@include cuadrado-color($B1);}
+	&.B2{@include cuadrado-color($B2);}
+	&.B3{@include cuadrado-color($B3);}
+	&.B4{@include cuadrado-color($B4);}
+	&.B5{@include cuadrado-color($B5);}
+	&.C1{@include cuadrado-color($C1);}
+	&.C2{@include cuadrado-color($C2);}
+	&.C3{@include cuadrado-color($C3);}
+	&.C4{@include cuadrado-color($C4);}
+	&.C5{@include cuadrado-color($C5);}
+	&.D1{@include cuadrado-color($D1);}
+	&.D2{@include cuadrado-color($D2);}
+	&.D3{@include cuadrado-color($D3);}
+	&.D4{@include cuadrado-color($D4);}
+	&.D5{@include cuadrado-color($D5);}
+	&.E1{@include cuadrado-color($E1);}
+	&.E2{@include cuadrado-color($E2);}
+	&.E3{@include cuadrado-color($E3);}
+	&.E4{@include cuadrado-color($E4);}
+	&.E5{@include cuadrado-color($E5);}
+}
+
+.banner{
+	background-image: url(../img/carousel-bg.jpg);
+	background-size: cover;
+	position: relative;
+	height: 400px;
+	width: 100%;
+	margin-top: -20px;
+}
+
+
+
+    
+   
